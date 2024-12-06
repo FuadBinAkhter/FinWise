@@ -1,0 +1,40 @@
+.howItWorks {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.howItWorks h2 {
+  font-size: 2rem;
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.step {
+  text-align: center;
+  width: 200px;
+}
+
+.stepNumber {
+  background: var(--color-primary);
+  color: var(--color-dark);
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step p {
+  font-size: 1rem;
+  color: var(--text-light);
+}

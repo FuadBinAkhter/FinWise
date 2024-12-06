@@ -1,0 +1,39 @@
+:root {
+  --color-primary-light: #80EE98;
+  --color-primary: #46DFB1;
+  --color-accent: #09D1C7;
+  --color-dark: #213A58;
+  --color-background: linear-gradient(180deg, #213A58, #80EE98);
+  --text-light: #ffffff;
+  --text-dark: #0C6478;
+}
+
+.homepage {
+  background: var(--color-background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  color: var(--text-light);
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.footer p {
+  color: var(--text-light);
+}
+
+.footer a {
+  color: var(--color-accent);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

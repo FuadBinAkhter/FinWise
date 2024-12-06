@@ -1,0 +1,35 @@
+.features {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.features h2 {
+  font-size: 2rem;
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+.featureList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.featureItem {
+  background: var(--color-dark);
+  color: var(--text-light);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.featureItem h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.featureItem p {
+  font-size: 1rem;
+}

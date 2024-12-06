@@ -1,0 +1,49 @@
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+.cta {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.primaryButton,
+.secondaryButton {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.primaryButton {
+  background: var(--color-primary);
+  color: var(--text-dark);
+}
+
+.secondaryButton {
+  background: var(--color-primary-light);
+  color: var(--text-dark);
+}
+
+.primaryButton:hover,
+.secondaryButton:hover {
+  opacity: 0.9;
+}
